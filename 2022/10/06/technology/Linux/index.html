@@ -1,0 +1,204 @@
+<!DOCTYPE html><html lang="zh" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Linux | XHP-WORLDS</title><meta name="keywords" content="系统"><meta name="author" content="XLucky"><meta name="copyright" content="XLucky"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Linux系统是一套免费使用和自由传播的类Unix操作系统 以网络为核心的设计思想 一切皆是文件 根目录 &#x2F;：所有文件 启动命令sync #将数据由内存同步到硬盘中 在关机前操作shutdown #关机指令shutdown -h 10 #计算机将在十秒后关机shutdown -h now #立刻关机shutdown -r now #立刻重启shutdown -r +10 #10分钟后重启reboo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux">
+<meta property="og:url" content="https://mlsummer.github.io/2022/10/06/technology/Linux/index.html">
+<meta property="og:site_name" content="XHP-WORLDS">
+<meta property="og:description" content="Linux系统是一套免费使用和自由传播的类Unix操作系统 以网络为核心的设计思想 一切皆是文件 根目录 &#x2F;：所有文件 启动命令sync #将数据由内存同步到硬盘中 在关机前操作shutdown #关机指令shutdown -h 10 #计算机将在十秒后关机shutdown -h now #立刻关机shutdown -r now #立刻重启shutdown -r +10 #10分钟后重启reboo">
+<meta property="og:locale">
+<meta property="og:image" content="https://mlsummer.github.io/img/page/blog_default.jpg">
+<meta property="article:published_time" content="2022-10-06T08:03:57.000Z">
+<meta property="article:modified_time" content="2022-10-06T08:07:17.362Z">
+<meta property="article:author" content="XLucky">
+<meta property="article:tag" content="系统">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mlsummer.github.io/img/page/blog_default.jpg"><link rel="shortcut icon" href="/img/logo.png"><link rel="canonical" href="https://mlsummer.github.io/2022/10/06/technology/Linux/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Linux',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-10-06 16:07:17'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/background.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css"><meta name="generator" content="Hexo 6.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">Loading...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/loading.gif" data-original="/img/logo.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">12</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">4</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa fa-comments-o"></i><span> 分享</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/page/blog_default.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">XHP-WORLDS</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa fa-comments-o"></i><span> 分享</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Linux</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2022-10-06T08:03:57.000Z" title="Created 2022-10-06 16:03:57">2022-10-06</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2022-10-06T08:07:17.362Z" title="Updated 2022-10-06 16:07:17">2022-10-06</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81/">技术支持</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word count:</span><span class="word-count">743</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading time:</span><span>2min</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Linux"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="Linux系统"><a href="#Linux系统" class="headerlink" title="Linux系统"></a>Linux系统</h1><p>是一套免费使用和自由传播的类Unix操作系统 以网络为核心的设计思想</p>
+<p><strong>一切皆是文件</strong></p>
+<p><strong>根目录 <code>/</code>：所有文件</strong></p>
+<h2 id="启动命令"><a href="#启动命令" class="headerlink" title="启动命令"></a>启动命令</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sync</span> <span class="comment">#将数据由内存同步到硬盘中 在关机前操作</span></span><br><span class="line">shutdown <span class="comment">#关机指令</span></span><br><span class="line">shutdown -h 10 <span class="comment">#计算机将在十秒后关机</span></span><br><span class="line">shutdown -h now <span class="comment">#立刻关机</span></span><br><span class="line">shutdown -r now <span class="comment">#立刻重启</span></span><br><span class="line">shutdown -r +10 <span class="comment">#10分钟后重启</span></span><br><span class="line">reboot <span class="comment">#重启</span></span><br><span class="line">halt <span class="comment">#关闭系统</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
+<li><strong>&#x2F;bin</strong>	存放最经常使用的命令</li>
+<li><strong>&#x2F;boot</strong>    启动Linux的核心文件</li>
+<li><strong>&#x2F;dev</strong>    存放Linux的外部设备</li>
+<li><strong>&#x2F;etc</strong>    用来存放所有系统管理所需要的配置文件和子目录</li>
+<li><strong>&#x2F;home</strong>    用户的主目录 一般该目录是以用户账号命名</li>
+<li><strong>&#x2F;lib</strong>    存放系统最基本的动态连接共享库</li>
+<li><strong>&#x2F;lost+found</strong>    当系统非法关机存放文件</li>
+<li><strong>&#x2F;media</strong>    自动设备挂载</li>
+<li><strong>&#x2F;mnt</strong>    用户临时挂载别的文件系统</li>
+<li><strong>&#x2F;opt</strong>    给主机额外安装软件所摆放的目录</li>
+<li><strong>&#x2F;proc</strong>    系统内存映射</li>
+<li><strong>&#x2F;root</strong>    系统管理员</li>
+<li><strong>&#x2F;sbin</strong>    系统管理程序</li>
+<li><strong>&#x2F;srv</strong>    服务启动之后需要提取的数据</li>
+<li><strong>&#x2F;sys</strong>    文件系统sysfs</li>
+<li><strong>&#x2F;tmp</strong>    存放临时文件</li>
+<li><strong>&#x2F;usr</strong>    应用程序和文件存放位置</li>
+<li><strong>&#x2F;usr&#x2F;bin</strong>    系统用户使用的应用程序</li>
+<li><strong>&#x2F;usr&#x2F;sbin</strong>    超级用户高级管理程序</li>
+<li><strong>&#x2F;usr&#x2F;src</strong>    内核源代码默认放置位置</li>
+<li><strong>&#x2F;var</strong>    存放不断扩充的东西</li>
+<li><strong>&#x2F;run</strong>    临时文件系统，存储系统启动以来的信息，系统重启这个目录的文件应该删除</li>
+</ul>
+<h2 id="常用基本命令"><a href="#常用基本命令" class="headerlink" title="常用基本命令"></a>常用基本命令</h2><h3 id="目录管理"><a href="#目录管理" class="headerlink" title="目录管理"></a>目录管理</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#绝对路径 相对路径</span></span><br><span class="line"><span class="built_in">ls</span> <span class="comment">#列出目录</span></span><br><span class="line"><span class="built_in">ls</span> -a <span class="comment">#查看全部文件，包括隐藏文件</span></span><br><span class="line"><span class="built_in">ls</span> -l <span class="comment">#列出所有文件包含文件属性和权限，无隐藏文件</span></span><br><span class="line"><span class="built_in">ls</span> -al <span class="comment">#所有Linux命令可以组合使用 查询全部文件包含隐藏文件及文件属性权限</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="built_in">cd</span> [路径] <span class="comment">#切换目录命令</span></span><br><span class="line">./ <span class="comment">#当前目录</span></span><br><span class="line"><span class="built_in">cd</span> .. <span class="comment">#返回上级目录</span></span><br><span class="line"><span class="built_in">cd</span> ../user <span class="comment">#相对路径跳转</span></span><br><span class="line"><span class="built_in">cd</span> /home/xdj <span class="comment">#绝对路径跳转</span></span><br><span class="line"><span class="built_in">cd</span> ~ <span class="comment">#回到当前用户目录</span></span><br><span class="line"><span class="built_in">pwd</span> <span class="comment">#显示当前所在目录</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">mkdir</span> [文件夹] <span class="comment">#创建一个目录</span></span><br><span class="line"><span class="built_in">mkdir</span> -p [文件夹/文件夹/文件夹] <span class="comment">#创建递归多级目录</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">rmdir</span> [文件夹] <span class="comment">#删除文件夹</span></span><br><span class="line"><span class="built_in">rmdir</span> -p [文件夹/文件夹/文件夹] <span class="comment">#删除递归多级目录</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">cp</span> [文件名] [文件夹] <span class="comment">#复制文件到指定目录</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#rm(移除文件或者目录)</span></span><br><span class="line"><span class="built_in">rm</span> -f <span class="comment">#忽略不存在的文件，不会出现警告，强制删除</span></span><br><span class="line"><span class="built_in">rm</span> -r <span class="comment">#递归删除目录</span></span><br><span class="line"><span class="built_in">rm</span> -i <span class="comment">#互动，删除询问是否删除</span></span><br><span class="line"><span class="built_in">rm</span> -rf / <span class="comment">#系统中所有文件删除</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#mv 移动文件或目录</span></span><br><span class="line"><span class="built_in">mv</span> -f 强制</span><br><span class="line"><span class="built_in">mv</span> -u 只替换已经更新的文件</span><br></pre></td></tr></table></figure>
+
+<p>文件搜索 find</p>
+<p>挂载 mount</p>
+<h1 id="Linux环境搭建"><a href="#Linux环境搭建" class="headerlink" title="Linux环境搭建"></a>Linux环境搭建</h1><h2 id="资源目录"><a href="#资源目录" class="headerlink" title="资源目录"></a>资源目录</h2><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="function">D:\<span class="title">application</span>\<span class="title">WORK</span>\<span class="title">Linux</span></span></span><br></pre></td></tr></table></figure>
+
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="https://mlsummer.github.io">XLucky</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://mlsummer.github.io/2022/10/06/technology/Linux/">https://mlsummer.github.io/2022/10/06/technology/Linux/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%B3%BB%E7%BB%9F/">系统</a></div><div class="post_share"><div class="social-share" data-image="/img/page/blog_default.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> Donate</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/pay/wechat.png" target="_blank"><img class="post-qr-code-img" src="/img/loading.gif" data-original="/img/pay/wechat.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/img/pay/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="/img/loading.gif" data-original="/img/pay/alipay.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2022/10/06/technology/Redis/"><img class="prev-cover" src="/img/loading.gif" data-original="/img/page/blog_default.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">Previous Post</div><div class="prev_info">Redis</div></div></a></div><div class="next-post pull-right"><a href="/2022/10/06/technology/Jenkins/"><img class="next-cover" src="/img/loading.gif" data-original="/img/page/blog_default.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">Jenkins</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/loading.gif" data-original="/img/logo.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">XLucky</div><div class="author-info__description">我会在这里留下一些什么，以至于我将来能感动自己</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">12</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/MlSummer"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">欢迎来到未知的世界</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Linux%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.</span> <span class="toc-text">Linux系统</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%AF%E5%8A%A8%E5%91%BD%E4%BB%A4"><span class="toc-number">1.1.</span> <span class="toc-text">启动命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95"><span class="toc-number">1.2.</span> <span class="toc-text">目录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4"><span class="toc-number">1.3.</span> <span class="toc-text">常用基本命令</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95%E7%AE%A1%E7%90%86"><span class="toc-number">1.3.1.</span> <span class="toc-text">目录管理</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Linux%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA"><span class="toc-number">2.</span> <span class="toc-text">Linux环境搭建</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B5%84%E6%BA%90%E7%9B%AE%E5%BD%95"><span class="toc-number">2.1.</span> <span class="toc-text">资源目录</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/10/06/technology/Redis/" title="Redis"><img src="/img/loading.gif" data-original="/img/page/blog_default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Redis"/></a><div class="content"><a class="title" href="/2022/10/06/technology/Redis/" title="Redis">Redis</a><time datetime="2022-10-06T08:04:57.000Z" title="Created 2022-10-06 16:04:57">2022-10-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/06/technology/Linux/" title="Linux"><img src="/img/loading.gif" data-original="/img/page/blog_default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Linux"/></a><div class="content"><a class="title" href="/2022/10/06/technology/Linux/" title="Linux">Linux</a><time datetime="2022-10-06T08:03:57.000Z" title="Created 2022-10-06 16:03:57">2022-10-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/06/technology/Jenkins/" title="Jenkins"><img src="/img/loading.gif" data-original="/img/page/blog_default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Jenkins"/></a><div class="content"><a class="title" href="/2022/10/06/technology/Jenkins/" title="Jenkins">Jenkins</a><time datetime="2022-10-06T07:58:57.000Z" title="Created 2022-10-06 15:58:57">2022-10-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/06/technology/Git/" title="Git"><img src="/img/loading.gif" data-original="/img/page/blog_default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Git"/></a><div class="content"><a class="title" href="/2022/10/06/technology/Git/" title="Git">Git</a><time datetime="2022-10-06T07:55:57.000Z" title="Created 2022-10-06 15:55:57">2022-10-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/06/language/JAVA%E5%9F%BA%E7%A1%80/" title="JAVA基础"><img src="/img/loading.gif" data-original="/img/page/blog_default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JAVA基础"/></a><div class="content"><a class="title" href="/2022/10/06/language/JAVA%E5%9F%BA%E7%A1%80/" title="JAVA基础">JAVA基础</a><time datetime="2022-10-06T07:52:57.000Z" title="Created 2022-10-06 15:52:57">2022-10-06</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/page/blog_default.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By XLucky</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"></div><div class="aplayer no-destroy" data-id="000PeZCQ1i4XVs" data-server="tencent" data-type="artist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script id="canvas_nest" defer="defer" color="22,119,179" opacity="0.7" zIndex="-1" count="99" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div>
+        <style>
+            [bg-lazy] {
+                background-image: none !important;
+                background-color: #eee !important;
+            }
+        </style>
+        <script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(e){e.imageLazyLoadSetting.processImages=t;var n=e.imageLazyLoadSetting.isSPA,i=e.imageLazyLoadSetting.preloadRatio||1,r=o();function o(){var t=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")),e=Array.prototype.slice.call(document.querySelectorAll("[bg-lazy]"));return t.concat(e)}function t(){n&&(r=o());for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(e.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];e=function(){r=r.filter(function(t){return o!==t})},(t=o).hasAttribute("bg-lazy")?(t.removeAttribute("bg-lazy"),e&&e()):(n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,t.removeAttribute("data-original"),e&&e()},t.src!==i&&(n.src=i))}()}function a(){clearTimeout(t.tId),t.tId=setTimeout(t,500)}t(),document.addEventListener("scroll",a),e.addEventListener("resize",a),e.addEventListener("orientationchange",a)}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"right","width":300,"height":600},"mobile":{"show":false},"rect":"opacity:0.7","log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body></html>
